@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-09",
   "version": "2.0.0",
-  "description": "",
+  "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки\r дополнительных возможностей [обратись к документации](https://parceljs.org/).",
   "homepage": "https://jakunowa.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
@@ -23,5 +23,9 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "bugs": {
+    "url": "https://github.com/jakunowa/goit-js-hw-08/issues"
+  },
+  "main": "index.js"
 }
