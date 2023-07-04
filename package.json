@@ -25,7 +25,6 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "bugs": {
-    "url": "https://github.com/jakunowa/goit-js-hw-08/issues"
-  },
-  "main": "index.js"
+    "url": "https://github.com/jakunowa/goit-js-hw-09/issues"
+  }
 }
