@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/js/03-promises.js"],"sourcesContent":["function createPromise(position, delay) {\r\n  const shouldResolve = Math.random() > 0.3;\r\n  if (shouldResolve) {\r\n    // Fulfill\r\n  } else {\r\n    // Reject\r\n  }\r\n}\r\n"],"names":[],"version":3,"file":"03-promises.ddfe5b51.js.map"}
