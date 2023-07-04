@@ -574,6 +574,20 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"cYUEh":[function(require,module,exports) {
+const startButton = document.querySelector("[data-start]");
+const stopButton = document.querySelector("[data-stop]");
+let changeColor = null;
+const getRandomHexColor = ()=>document.body.style.backgroundColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+startButton.addEventListener("click", ()=>{
+    startButton.disabled = true;
+    stopButton.disabled = false;
+    changeColor = setInterval(()=>getRandomHexColor(), 1000);
+});
+stopButton.addEventListener("click", ()=>{
+    startButton.disabled = false;
+    stopButton.disabled = true;
+    clearInterval(changeColor);
+});
 
 },{}]},["iIo4t","cYUEh"], "cYUEh", "parcelRequire7bc7")
 
